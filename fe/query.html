@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Chatbot Interface</title>
+</head>
+<body>
+    
+
+    <section class="frame frame-2">
+        <div class="header">
+          <span class="menu"></span>
+          <h4> Hey, Michael 👋 </h4>
+          <span class="user-image">
+        </div>
+        <!-- <div class="date"> Wed 8:21 AM </div> -->
+        <div class="bot-response">
+          <div class="bot-image"></div>
+          <div class="response">Hello, I’m Integbot! 👋 Your personal integration assistant. How can I help you?</div>
+        </div>
+        <div class="user-response">
+            <div class="response"></div>
+        </div>
+        <div class="user-input">
+            <form class="query_bar_3" action="/query" method="POST">
+             <input type="text" id="query" name="id" required>
+               <button  type="submit">Submit</button>
+            </form>
+        </div>
+      </section>
+<script src="frontend.js"></script>
+</body>
+</html>

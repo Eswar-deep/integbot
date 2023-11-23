@@ -1,0 +1,87 @@
+﻿I am not able to connect to slack in Zluri. Help!.
+Did you follow these 3 steps to connect to slack
+Step 1 :Select Scopes for Slack. Select scopes according to your needs to make the most out of Zluri's Discovery,Workflows,SAML or License Management features.You can also select default scopes for a hassle-free experience.
+Step 2 :Integration with Slack requires authorization from the Workspace admin. You may approve yourself if you are the Workspace admin, or you can send an invitation to your coworker to complete the authorisation.
+Step 3 : Enter the Slack Workspace name.Once connected, Zluri allows you to save this connection instance. You can also connect multiple instances of an integration with additional scopes according to your requirements.
+How many scopes are required to connect to slack
+Zluri needs 11 scopes to connect to slack
+What are the lsit of scopes to connect to slack
+The following 11 scopes required to connect slack to zluri are
+1. Admin:write ,
+Zluri requires this scope to read audit logs and integration logs for Slack.
+2. Auditlogs:read,
+Zluri requires this scope to view name, email domain, and icon for workspaces a user is connected to.
+3.usergroups:read,
+Zluri requires this scope to view information about user groups and group members in your Slack workspace.
+4.users.profile:read,
+Zluri requires this scope to view profile details about users in your Slack workspace.
+5.users:read,
+Zluri requires this scope to discover users and their respective licenses and roles for Slack.
+6.users:read.email,
+Zluri requires this scope to read email address of users in your Slack workspace.
+7.channels:read,
+Zluri requires this scope to view information about public channels from your Slack workspace.
+8.groups:read,
+Zluri requires this scope to view information about a user's group direct messages sent in your Slack workspace.
+9.im:read,
+Zluri requires this scope to view information about direct messages sent in your Slack workspace.
+10.metadata.message:read,
+Zluri requires this scope to view information about private channels in your Slack workspace.
+11.users.profile:write
+Zluri uses this scope to update user details in Slack account through workflows.
+Have you received any error message for slack integration ?
+The error message is that the user does not have sufficient permissions.
+You need to have one of the two roles on slack to make this connection. 1.Super Admin 2. Admin.
+Yes I am an admin
+If you are an admin or a super admin, then do you have the role with following permissions under Admin Console Privileges 1. Admin:write ,
+2. Auditlogs:read,
+3.usergroups:read,
+4.users.profile:read,
+5.users:read,
+6.users:read.email,
+7.channels:read,
+8.groups:read,
+9.im:read,
+10.metadata.message:read,
+11.users.profile:write
+Yes I have all the permissions for slack integration
+Have you changed your password for slack ?
+Yes I have changed the password for slack ?
+Can you please try reconnecting the slack application to zluri
+Have you received an error message - Unable to renew/generate access token ?
+Yes I might have revoked the acess for slack integration
+Can you please try reconnecting the application
+Have you received any error message - Unable to renew/generate access token ?
+Yes I might have received this message for slack integration
+Looks like the authorization has expired for this application. We just need to reconnect the application.
+Have you received any error message - upstream connect error or disconnect/reset before headers
+Yes I might have received this message for slack integration
+This is a network error. Just refresh a few times.
+Have you received any error message for slack integration - "This app is currently denied for installation Reach out to one of your App Managers for additional information, or you can try requesting again with different scopes and outgoing domains"
+Yes I might have received this message for slack integration
+Can you navigate to https://zluri.slack.com/apps/manage/settings and Click the toggle next to Require app approval.
+Have you received any error message for slack integration - "This app requires permissions that must be reviewed by an App Manager before you can install it"
+Yes I might have received this message for slack integration
+Can you navigate to https://zluri.slack.com/apps/manage/settings and Click the toggle next to Require app approval.
+Have you received any error message for slack integration - "This app is currently waiting for App Manager approval. Reach out to one of your App Managers for additional information."
+Yes I might have received this message for slack integration
+Can you navigate to https://zluri.slack.com/apps and search for the app from the app page, click Approve.
+Have you received any error message for slack integration - "The user has a request pending for this app"
+Yes I might have received this message for slack integration
+Can you navigate to https://zluri.slack.com/apps/manage/settings and Click the toggle next to Require app approval.
+Have you received any error message for slack integration - "You do not have permissions to install this app.Reach out to one of your App Managers to request permissions to install apps."
+Yes I might have received this message for slack integration
+Can you navigate to https://zluri.slack.com/apps/manage/settings and Click the toggle next to Require app approval.
+what all data zluri captures for slack integration
+Zluri captures the following data for slack User Profile Image,Activity Log,User Source status,Role,Email,License Info,Integration log,Group
+How i can remove/disconnect slack integration from zluri
+To disconnect the slack integration from Zluri, please hover on the slack integration in the integrations tab and click 'More Info'. It will open a page where you can click 'Disconnect' to disconnect the Application from your Zluri account.
+what are the supported plans for slack in Zluri
+The supported plans for slack in zluri are Pro,Business,Enterprise Grid
+why zluri needs permission for the scopes for slack inetgration
+Zluri need the permissions for the scopes for slack integration to
+1. Read audit logs and integration logs
+2. View name, email domain, icon for workspaces a user is connected ,user groups , group members, profile details about users,private channels, public channels , email address of users , user's group direct messages sent,direct messages sent
+3. Discover users and their respective licenses and roles
+4. Update user details in Slack account through workflows
+

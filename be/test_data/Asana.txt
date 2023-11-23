@@ -1,0 +1,30 @@
+﻿Asana
+
+
+The Capabilities provided by zluri after connecting Asana are User Profile Picture,User Email, User Name, Onboarding actions - Add User To Workspace,Create Team,Remove User From All Workspaces,Add User To Project(s),Add User To Team(s),Remove User From All Teams,Create Task,Asana: Add User to Task(s),offboarding - Remove User As Follower From All Tasks, Remove User From All Projects,Remove User From Selected Workspaces,Remove User from all Projects as Follower,Asana users & usage,Create and Remove User Accounts in Asana,Manage Teams, Projects & Tasks in Asana
+
+
+
+
+The 2 steps to connect Asana to Zluri are Step 1 :Select Scopes for Asana
+Select scopes according to your needs to make the most out of Zluri's Discovery, Workflows, SAML or License Management features.You can also select default scopes for a hassle-free experience.Step 2 :Connect with Asana by authorising and save instance Integration with Asana requires authorization from the Asana administrator. If you have the Asana credentials you can authorize yourself. Or you can send an invite to your co-worker to complete the authorization.Once connected, Zluri allows you to save this connection instance. You can also connect multiple instances of an integration with additional scopes according to your requirements.https://asana.com/apps/zluri.
+
+
+The 3 steps to connect Asana Enterprise to Zluri are Step 1 :To add a Service Account(PAT).Click the Apps tab from  your Admin Console Step 2 :Click the Add Service Account button Step 3 :After creating service account. Please generate token from there
+
+
+The suggested role to connect Asana to zluri is Owner
+
+
+The scopes required to connect Asana to zluri are the endpoints documented in https://developers.asana.com/reference/rest-api-reference
+
+
+
+
+The Supported Plans for Asana in zluri are Basic, Premium, Business,Enterprise.The Free plan is limited to 15 members, while the Premium plan is limited to 5,000 members. The Business plan is limited to 150,000 members and the Enterprise plan is unlimited.
+
+
+If the last active value is empty can you verify the plan details .Basic, Premium , Business plans doesn’t provide the activity data. Please connect the Enterprise account to zluri.
+
+
+If there is a license mismatch navigate to asana admin console https://app.asana.com/admin/1188606260300797/members . ​​The licence count would be the sum of members + pending invites. This is a imitation from Asana API and not an error in Zluri data processing

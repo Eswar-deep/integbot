@@ -1,0 +1,118 @@
+﻿I am not able to connect to Google Workspace in Zluri.
+Did you follow these 8 steps to connect to google workspace Step 1 :Connecting to Google Workspace using Service Account takes approx 5 mins. Please go through the below help article for the steps. Google Workspace with Service Account Help . Step 2 :From your Google Workspace domain’s Admin console, Go to Main menu > Security > API Controls.Step 3 : In the Domain wide delegation pane, select Manage Domain Wide Delegation.
+Step 4 :Click Add new.
+Step 5 :In the Client ID field, enter the Zluri service account's Client ID = ''.
+Step 6 :In the OAuth scopes (comma-delimited) field, enter the list of 8 scopes for google workspace that your application should be granted access to.
+1. https://www.googleapis.com/auth/admin.directory.domain.readonly
+Zluri utilizes this scope to discover customer domain infromation in Google Workspace
+2. https://www.googleapis.com/auth/admin.directory.group.readonly
+Zluri utilizes this scope to discover goups in Google Workspace
+3. https://www.googleapis.com/auth/admin.directory.orgunit.readonly
+Zluri utilizes this scope to discover organization units in Google Workspace
+4. https://www.googleapis.com/auth/admin.directory.user.readonly
+Zluri utilizes this scope to discover users in Google Workspace
+5. https://www.googleapis.com/auth/admin.directory.user.security
+Zluri utilizes this scope to read the applications autorized by each user using their Google Workspace authorization.
+6. https://www.googleapis.com/auth/admin.reports.audit.readonly
+Zluri utilizes this scope to get admin and user activity data for Google Workspace
+7. https://www.googleapis.com/auth/admin.reports.usage.readonly
+Zluri utilizes this scope to read uasge data for Google Apps in Google Workspace
+8. https://www.googleapis.com/auth/apps.licensing
+Zluri utilizes this scope to read and manage licenses in Google Workspace primarily
+Step 7 : Copy and Paste the following scopes in the text box.
+Step 8 : Click Authorize. Read More : https://developers.google.com/identity/protocols/oauth2/service-account#delegatingauthority
+
+Have you received any error message for Google Workspace ?
+The error message is that the user does not have sufficient permissions.
+You need to have one of the two roles on Google Workspace to make this connection. 1.Super Admin 2. Admin.
+I don’t know what role I have in Google Workspace.
+You can find out your role for Google Workspace at this URL : https://admin.google.com/u/2/ac/rolesThe window should look like the below screenshot. https://3.bp.blogspot.com/-a33-CStNfog/Wsy2QUyEjwI/AAAAAAAAGk0/7uinWMczMVYOmZ0BnSRf5s37FJcicwiCQCLcBGAs/s1600/user-management-cards-new.png
+I have an admin role but I am still facing this ‘User does not have sufficient permissions’ error.
+If you are an admin or a super admin, then do you have the role with following permissions under Admin Console Privileges 1. Organisation Units : Read 2. Users : Read 3. Skip the services section 4. Security : User Security Management 5. Security : Security Settings 6. Domain Settings Reports.
+Yes I have all the permissions for Google Workspace.
+Have you changed your password for Google Workspace?
+Yes I have changed the password for Google Workspace
+Can you please try reconnecting the application
+Have you received any error message for Google Workspace?
+I received Error 400: admin_policy_enforced’ for Google Workspace
+Your organization’s G-Suite administrator needs to allow access to Zluri. If you can access the Google Admin console with your account, these changes can be made by you.
+Have you received any error message for Google Workspace?
+Unable to renew/generate access token
+Have you revoked the  Google Workspace access given to Zluri ?
+Yes I might have revoked the acess
+Can you please try reconnecting the Google Workspace to Zluri
+Have you received any error message for Google Workspace?
+Unable to renew/generate access token
+Looks like the authorization has expired for Google Workspace . We just need to reconnect the Google Workspace to zluri.
+Have you received any error message for Google Workspace?
+upstream connect error or disconnect/reset before headers
+This is a network error. Just refresh a few times.
+
+for Google Workspace Zluri captures data about Department,Designation,Two-Factor authentication,User Created Date,Last Login,Signin Activity,Activity Log,User Source status,Role,Email,Audit log,License Info,Integration log,Group
+
+How i can remove/disconnect Google Workspace integration from zluri
+To disconnect the Google Workspace integration from Zluri, please hover on the integration in the integrations tab and click 'More Info'. It will open a page where you can click 'Disconnect' to disconnect the Application from your Zluri account.
+
+The supported plans for google workspace are Business Starter,Business Standard,Business Plus,Enterprise
+
+why zluri needs permission for the scopes to connect Google Workspace 
+Zluri need the permissions for the scopes to discover customer domain infromation,groups ,organization units and to read and manage users activity data , uasge data , licenses
+
+
+can you provide 10 recommended integrations
+Zluri supports direct integrations with 500+ applications and adds more and more integrations every month. Recommended integrations are the list of apps used by the users in your organization, which are discovered using the integration with your SSO. Zluri suggests connecting as many integrations as possible as that gives Zluri more accurate information about users, licenses, and usage activities which helps Zluri provide better insights. Each integration might have different capabilities based on the APIs available and the Salesforce-Oauth integration supports 4 Editions: Enterprise Edition, Unlimited Edition, Developer Edition, and Performance Edition.
+Some of them are Googleworkspace,slack , zoom, asana , netsuite, Jira, atlassian admin , git hub, Bamboo Hr,Trello
+
+
+What are the list of CASBs supported by Zluri
+List of CASBs
+1. Sophos central
+2. Cisco umbrella
+3. checkpoint infinity
+4. Microsoft intune
+5. Jamf
+6.Limacharlie
+7. Keriofirewall
+8. Digicert
+9.Impreva
+10. Zscaler
+11. cloudflare
+Only Zscaler, intune and jamf provide device and app details
+What are the list of finance & accounting applications supported by Zluri
+Zluri has more than 20 applications under the finance & accounting umbrella.
+Accounting software,Brex,Bridge,Concur by SAP,E-conomic,Freshbooks,Fortnox,Intuit quickbooks,Microsoft dynamics,Netsuite,Netsuite custom,Ramp,Saasu,Zoho books
+Other related applications
+Avalara,Freee,Opencard,Moneybird
+What are the list of finance & accounting applications supported by Zluri
+Expense management software,Certify expense,Coupa,Expensify,Findity,Fyle,Zoho expense,Workday
+What are the list of SSOs supported by Zluri
+Google Workspace,Okta,OneLogin,AWS Identity Center,AWS IAM,Azure AD,Jumpcloud
+What are the list of HR applications supported by Zluri
+Absence.io
+Bamboo HR
+Breathe HR
+Darwinbox
+Freshteams
+Greenhouse
+Gusto
+Greyt HR
+Heaven HR
+Hi Bob
+Rippling
+Zoho Recruit
+Zoho people
+Orange HRM
+Sage HR
+Personio HR
+Envoy
+Successfactors
+ADP worker
+Keka
+Humi
+
+
+
+
+
+
+

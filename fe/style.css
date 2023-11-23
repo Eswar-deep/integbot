@@ -1,0 +1,251 @@
+.round-button {
+  width: 50px;
+  height: 50px;
+  background-color: #c6f432;
+  border-radius: 50%;
+  position: relative;
+  margin: 20px auto;
+  cursor: pointer;
+}
+.frame {
+  display: none;
+  width: 656px;
+  height: 960px;
+  border-radius: 20px;
+  background: #010101;
+  padding: 50px 20px;
+}
+.frame-1 {
+  display: none;
+  background-image: url("https://res.cloudinary.com/dylomollb/image/upload/v1693477929/bot-image_bxobb9.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.intro-pill {
+  border-radius: 100px;
+  background: #c6f432;
+  padding: 8px 16px;
+  width: 203px;
+  margin: 0 auto;
+}
+.intro-pill span {
+  color: #010101;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: center;
+  display: inline-block;
+}
+/* .bot-image {
+  background-image: url("https://res.cloudinary.com/dylomollb/image/upload/v1693477929/bot-image_bxobb9.png");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  width: 900px;
+  height: 829px;
+  position: relative;
+} */
+h2 {
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  line-height: 1.5;
+}
+.frame-1 button {
+  border-radius: 168px;
+  background-color: #fff;
+  border: none;
+  color: #010101;
+  font-weight: 500;
+  font-size: 20px;
+  /*   margin: 100px auto; */
+  /* position: absolute;  */
+  /* left: 50%;
+    right: 50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 400px;
+  margin-top: 100px;
+  padding: 22px;
+  text-align: left;
+  background: url(https://res.cloudinary.com/dylomollb/image/upload/v1693482447/arrow-narrow-right_olkfpn.svg)
+    no-repeat #fff center right 18px;
+}
+.intro-content {
+  margin: 600px auto 0 auto;
+  position: relative;
+  height: -webkit-fill-available;
+  /* position: ;*/
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu {
+  background: url("https://res.cloudinary.com/dylomollb/image/upload/v1693477188/menu_x693sy.svg")
+    no-repeat;
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+}
+.header h4 {
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  align-self: center;
+}
+.header .user-image {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-image: url("https://res.cloudinary.com/dylomollb/image/upload/v1693483588/user-image_x3oqah.svg");
+}
+.frame-2 {
+  position: relative;
+}
+.frame-2 h2 {
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+  margin: 40px 400px 0 0;
+}
+.boxes {
+  display: flex;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  grid-gap: 12px;
+}
+.main-box {
+  border-radius: 24px;
+  background: #c6f432;
+  box-shadow: -100px -100px 200px 0px rgba(218, 255, 55, 0.7);
+  width: 211px;
+  height: 240px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.small-box {
+  display: inline-block;
+  width: 162px;
+  padding: 16px;
+  border-radius: 24px;
+  background-color: #c09ff8;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.small-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+}
+.main-box div,
+.small-box div {
+  width: 100%;
+}
+.main-box h5 {
+  font-size: 22px;
+  line-height: 1.4;
+}
+.small-box h5 {
+  font-size: 17px;
+  line-height: 1.4;
+}
+.pink {
+  background-color: #fec4dd;
+}
+.main-box .icon {
+  background-image: url("https://res.cloudinary.com/dylomollb/image/upload/v1693477188/error_gdhjop.svg");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.small-boxes .small-box .icon {
+  background-image: url("https://res.cloudinary.com/dylomollb/image/upload/v1693477188/integrations_ol50tj.svg");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.boxes .arrow {
+  background-image: url("https://res.cloudinary.com/dylomollb/image/upload/v1693487312/arrow-direct_kor4tx.svg");
+  width: 28px;
+  height: 28px;
+  float: right;
+  margin-top: 4px;
+}
+.user-input {
+  border-radius: 100%;
+  background: #fff;
+  color: #101010;
+  position: absolute;
+  bottom: 50px;
+}
+.user-input input {
+  border: none;
+  padding: 22px 40px;
+  width: 580px;
+  font-size: 16px;
+  border-radius: 50px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background: url(https://res.cloudinary.com/dylomollb/image/upload/v1693482447/arrow-narrow-right_olkfpn.svg)
+    no-repeat #fff center right 18px;
+}
+.date {
+  color: #72777a;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 50px 0 30px 0;
+  text-align: center;
+}
+.bot-response {
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.bot-response .bot-image {
+  background: url("https://res.cloudinary.com/dylomollb/image/upload/v1693494440/bot-icon_crfy6h.svg")
+    no-repeat;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  vertical-align: top;
+}
+.response {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 16px;
+}
+.bot-response .response {
+  background: #fff;
+  border-radius: 0px 24px 24px 24px;
+  display: inline-block;
+  max-width: 320px;
+}
+.user-response .response {
+  background: #c6f432;
+  border-radius: 24px 24px 0px 24px;
+  float: right;
+  text-align: right;
+}
