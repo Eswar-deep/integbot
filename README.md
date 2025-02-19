@@ -51,5 +51,5 @@ For any queries or support, reach out via [LinkedIn](https://www.linkedin.com/in
 
 ## Hackathon Certificate 🏆
 
-This project won a hackathon! You can view the certificate [here](./Hackathon certificate.pdf).
+This project won a hackathon! You can view the certificate [here](./certificate.pdf).
 
