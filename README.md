@@ -39,10 +39,6 @@ To set up Integbot locally:
 
 Feel free to fork this repository and submit pull requests for improvements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Contact
 
 For any queries or support, reach out via [LinkedIn](https://www.linkedin.com/in/eswardeep) or email.
